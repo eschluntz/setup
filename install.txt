@@ -1,0 +1,12 @@
+New ubuntu settings:
+> screen scale: .875
+
+installs
+> tweak tool
+> sublime
+> system load indicator
+> processing
+> terminator
+
+big installs
+> mathematica
