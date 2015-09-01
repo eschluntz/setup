@@ -18,6 +18,7 @@ sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install vim
 sudo apt-get install ipython
 sudo apt-get install python-pip
+sudo apt-get install octave
 sudo apt-get install vlc
 sudo apt-get install steam
 sudo add-apt-repository ppa:kilian/f.lux
