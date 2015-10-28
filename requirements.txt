@@ -1,0 +1,11 @@
+simplejson
+requests
+setuptools
+virtualenv
+nose
+Django
+mock
+mysql-python
+Pillow
+celery
+scikit-learn

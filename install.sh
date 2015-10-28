@@ -30,18 +30,15 @@ sudo apt-get install python-matplotlib ipython
 sudo apt-get install ipython-notebook python-pandas 
 sudo apt-get install python-sympy python-nose
 
+# arduino
+sudo apt-get install arduino arduino-core
+
+# webdev stack
+sudo apt-get install mysql
+sudo apt-get install libmysqlclient-dev
+
 # python packages
-sudo pip install simplejson
-sudo pip install requests
-sudo pip install setuptools
-sudo pip install virtualenv
-sudo pip install nose
-sudo pip install Django
-sudo pip install mock
-sudo pip install MySQL-python
-sudo pip install Pillow
-sudo pip install celery
-sudo pip install scikit-learn
+sudo pip install -r requirements.txt
 
 # cloning
 # make sure you add your git key to the sites
