@@ -49,6 +49,10 @@ git clone git@bitbucket.org:Eschluntz/rsim.git
 git clone git@github.com:rfccambridge/robocup-ee.git
 git clone git@github.com:rfccambridge/robocup-cs.git
 git clone ssh://git@git.nickmerrill.co:124/hccg/hccg.git
+git clone git@github.com:tldr-pages/tldr.git
+
+# tldr
+tldr init
 
 # config files
 cd ~/dev
