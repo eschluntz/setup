@@ -5,6 +5,8 @@ virtualenv
 nose
 Django
 mock
+python-dev
+libmysqlclient-dev
 mysql-python
 Pillow
 celery
