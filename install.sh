@@ -11,12 +11,17 @@ cd ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "eschluntz@gmail.com"
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
+
+cat id_rsa.pub
+echo "Copy this public key to github and bitbucket, then press enter"
+read
 cd
 
 # installing
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install vim
 sudo apt-get install ipython
+sudo apt-get install ipython3
 sudo apt-get install python-pip
 sudo apt-get install octave
 sudo apt-get install vlc
@@ -29,9 +34,6 @@ sudo apt-get install python-numpy python-scipy
 sudo apt-get install python-matplotlib ipython 
 sudo apt-get install ipython-notebook python-pandas 
 sudo apt-get install python-sympy python-nose
-
-# arduino
-sudo apt-get install arduino arduino-core
 
 # webdev stack
 sudo apt-get install mysql
@@ -58,6 +60,6 @@ tldr init
 cd ~/dev
 git clone git@bitbucket.org:Eschluntz/setup.git
 cd setup
-cp bash_aliases ~/.bash_aliases
-cp vimrc ~/.vimrc
+ln -s ~/dev/setup/bash_aliases ~/.bash_aliases
+ln -s ~/dev/setup/vimrc ~/.vimrc
 
