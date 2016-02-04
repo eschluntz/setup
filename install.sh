@@ -42,6 +42,21 @@ sudo apt-get install libmysqlclient-dev
 # python packages
 sudo pip install -r requirements.txt
 
+# ROS install
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+sudo apt-key adv --keyserver hkp://pool.sks-keyservers.net --recv-key 0xB01FA116
+sudo apt-get update
+sudo apt-get install ros-indigo-desktop-full
+
+sudo rosdep init
+rosdep update
+sudo apt-get install python-rosinstall
+
+# ROS Turtlebot install
+sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
+. /opt/ros/indigo/setup.bash 
+rosrun kobuki_ftdi create_udev_rules
+
 # cloning
 # make sure you add your git key to the sites
 cd ~/dev

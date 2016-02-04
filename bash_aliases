@@ -1,3 +1,8 @@
+## bashrc stuff
+# ROS
+source /opt/ros/indigo/setup.bash
+
+## Aliases
 # Custom Bash Aliases
 alias st='git status'
 alias br='git branch'
