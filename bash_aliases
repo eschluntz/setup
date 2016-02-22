@@ -1,6 +1,7 @@
 ## bashrc stuff
 # ROS
 source /opt/ros/indigo/setup.bash
+alias rnt='source ./devel/setup.bash'
 
 ## Aliases
 # Custom Bash Aliases

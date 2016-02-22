@@ -38,6 +38,7 @@ sudo apt-get install python-sympy python-nose
 # webdev stack
 sudo apt-get install mysql
 sudo apt-get install libmysqlclient-dev
+sudo apt-get install phpmyadmin
 
 # python packages
 sudo pip install -r requirements.txt
@@ -56,6 +57,7 @@ sudo apt-get install python-rosinstall
 sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-turtlebot-interactions ros-indigo-turtlebot-simulator ros-indigo-kobuki-ftdi ros-indigo-rocon-remocon ros-indigo-rocon-qt-library ros-indigo-ar-track-alvar-msgs
 . /opt/ros/indigo/setup.bash 
 rosrun kobuki_ftdi create_udev_rules
+sudo apt-get install ros-indigo-rqt
 
 # cloning
 # make sure you add your git key to the sites
