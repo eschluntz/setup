@@ -8,13 +8,18 @@ alias st='git status'
 alias br='git branch'
 alias b='cd ..'
 alias bb='cd ../..'
+alias bbb='cd ../../../'
 
 # programs
 alias chrome='/opt/google/chrome/google-chrome --enable-plugins'
 
 # ssh destinations
-alias erik='ssh erikschluntz.com'
+alias erik='ssh erik@erikschluntz.com'
+alias desk='ssh erik@desk.erikschluntz.com'
 alias portal='ssh erik_schluntz@harvardconsulting.org'
+alias turtle='ssh turtlebot@172.16.0.18'
+
+alias wake_desk='wakeonlan -i desk.erikschluntz.com d8:cb:8a:6e:57:8b'
 
 # django stuff
 alias ent='source env/bin/activate'
