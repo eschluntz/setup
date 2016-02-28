@@ -7,6 +7,8 @@ alias rnt='source ./devel/setup.bash'
 # Custom Bash Aliases
 alias st='git status'
 alias br='git branch'
+alias ad='git add -A'
+alias cm='git commit -m'
 alias b='cd ..'
 alias bb='b && b'
 alias bbb='bb && b'
