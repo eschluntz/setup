@@ -13,6 +13,7 @@ alias bbb='cd ../../../'
 
 # programs
 alias chrome='/opt/google/chrome/google-chrome --enable-plugins'
+alias dashb='bash ~/dev/setup/scripts/dashboard.sh && exit'
 
 # ssh destinations
 alias erik='ssh erik@erikschluntz.com'

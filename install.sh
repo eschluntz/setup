@@ -28,6 +28,7 @@ sudo apt-get install vlc
 sudo apt-get install steam
 sudo add-apt-repository ppa:kilian/f.lux
 sudo apt-get install fluxgui
+sudo apt-get install wakeonlan
 
 # scipy stack
 sudo apt-get install python-numpy python-scipy 
