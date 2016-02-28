@@ -19,7 +19,7 @@ alias dashb='bash ~/dev/setup/scripts/dashboard.sh && exit'
 alias erik='ssh erik@erikschluntz.com'
 alias desk='ssh erik@desk.erikschluntz.com'
 alias portal='ssh erik_schluntz@harvardconsulting.org'
-alias turtle='ssh turtlebot@172.16.0.18'
+alias turtle='ssh turtlebot@172.16.0.6'
 
 alias wake_desk='wakeonlan -i desk.erikschluntz.com d8:cb:8a:6e:57:8b'
 

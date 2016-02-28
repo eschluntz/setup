@@ -59,6 +59,9 @@ sudo apt-get install ros-indigo-turtlebot ros-indigo-turtlebot-apps ros-indigo-t
 . /opt/ros/indigo/setup.bash 
 rosrun kobuki_ftdi create_udev_rules
 sudo apt-get install ros-indigo-rqt
+sudo apt-get install ros-indigo-hokuyo-node
+sudo apt-get install ros-indigo-laser-filters
+sudo apt-get install ros-indigo-joystick-drivers
 
 # cloning
 # make sure you add your git key to the sites
