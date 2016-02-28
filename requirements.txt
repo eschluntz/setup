@@ -12,3 +12,4 @@ Pillow
 celery
 scikit-learn
 tldr.py
+python-whois

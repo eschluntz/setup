@@ -6,6 +6,8 @@ sudo apt-get install git
 git config --global user.name "Erik Schluntz"
 git config --global user.email "eschluntz@gmail.com"
 git config --global core.editor vim
+
+# ssh
 mkdir ~/.ssh
 cd ~/.ssh
 ssh-keygen -t rsa -b 4096 -C "eschluntz@gmail.com"
@@ -13,7 +15,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 cat id_rsa.pub
-echo "Copy this public key to github and bitbucket, then press enter"
+echo "Copy this public key to github, bitbucket, desktop, etc then press enter..."
 read
 cd
 
@@ -26,8 +28,6 @@ sudo apt-get install python-pip
 sudo apt-get install octave
 sudo apt-get install vlc
 sudo apt-get install steam
-sudo add-apt-repository ppa:kilian/f.lux
-sudo apt-get install fluxgui
 sudo apt-get install wakeonlan
 
 # scipy stack
@@ -72,15 +72,16 @@ git clone git@bitbucket.org:Eschluntz/rsim.git
 git clone git@github.com:rfccambridge/robocup-ee.git
 git clone git@github.com:rfccambridge/robocup-cs.git
 git clone ssh://git@git.nickmerrill.co:124/hccg/hccg.git
-git clone git@github.com:tldr-pages/tldr.git
 
 # tldr
+git clone git@github.com:tldr-pages/tldr.git
 tldr init
 
 # config files
 cd ~/dev
 git clone git@bitbucket.org:Eschluntz/setup.git
 cd setup
+
 ln -s ~/dev/setup/bash_aliases ~/.bash_aliases
 ln -s ~/dev/setup/vimrc ~/.vimrc
-
+cat authorized_keys >> ~/.ssh/authorized_keys

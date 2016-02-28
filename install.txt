@@ -10,3 +10,4 @@ installs
 
 big installs
 > mathematica
+> matlab
