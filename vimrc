@@ -5,7 +5,7 @@ set mouse=a
 set number
 syntax on
 set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
-
+color delek
 " Always show statusline
 set laststatus=2
 

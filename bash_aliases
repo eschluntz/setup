@@ -2,6 +2,9 @@
 # ROS
 source /opt/ros/indigo/setup.bash
 alias rnt='source ./devel/setup.bash'
+export ROS_MASTER_URI=http://10.8.0.10:11311
+export ROS_HOSTNAME=10.8.0.10
+#export ROS_IP=10.0.0.10
 
 ## Aliases
 # Custom Bash Aliases

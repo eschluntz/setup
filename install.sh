@@ -63,6 +63,11 @@ sudo apt-get install ros-indigo-hokuyo-node
 sudo apt-get install ros-indigo-laser-filters
 sudo apt-get install ros-indigo-joystick-drivers
 
+# ROS kinect install
+sudo apt-get install libfreenect-dev
+sudo apt-get install ros-indigo-freenect-launch
+sudo apt-get install ros-indigo-face-detector
+
 # cloning
 # make sure you add your git key to the sites
 cd ~/dev
