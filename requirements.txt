@@ -13,3 +13,5 @@ celery
 scikit-learn
 tldr.py
 python-whois
+cython
+scikit-image
